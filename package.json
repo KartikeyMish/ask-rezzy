@@ -1,0 +1,18 @@
+{
+  "name": "ask-rezzy",
+  "version": "1.0.0",
+  "description": "Ask Rezzy application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "rezzy",
+    "ask"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}

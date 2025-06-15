@@ -1,0 +1,58 @@
+[
+  {
+    "id": "q1",
+    "question": "What is vector search?",
+    "answer": "Vector search is a technique that converts text or other data into numerical vectors (embeddings) and finds similar items by measuring the distance between these vectors in a high-dimensional space. It's particularly useful for semantic search where traditional keyword matching might fail.",
+    "category": "Technology",
+    "tags": ["search", "vectors", "embeddings", "similarity"]
+  },
+  {
+    "id": "q2",
+    "question": "How does Pinecone work?",
+    "answer": "Pinecone is a vector database that stores embeddings and allows for efficient similarity search at scale. It works by organizing vectors in an index optimized for approximate nearest neighbor (ANN) search, which enables fast retrieval of similar vectors even in datasets with millions or billions of items.",
+    "category": "Technology",
+    "tags": ["database", "vectors", "search", "pinecone"]
+  },
+  {
+    "id": "q3",
+    "question": "What are embeddings in machine learning?",
+    "answer": "Embeddings in machine learning are dense vector representations of data in a continuous vector space. They capture semantic meaning by positioning similar items closer together in the vector space. For text, models like Word2Vec, GloVe, or more recent transformer-based models like those from OpenAI convert words or sentences into these numerical representations.",
+    "category": "Machine Learning",
+    "tags": ["embeddings", "vectors", "nlp", "representation"]
+  },
+  {
+    "id": "q4",
+    "question": "What is the difference between semantic search and keyword search?",
+    "answer": "Keyword search finds documents containing exact word matches, while semantic search understands the meaning and context of a query. Semantic search can find relevant results even when they don't contain the exact keywords, by using techniques like embeddings to capture the meaning of text. This makes it more effective for natural language queries and finding conceptually related content.",
+    "category": "Information Retrieval",
+    "tags": ["search", "semantics", "keywords", "comparison"]
+  },
+  {
+    "id": "q5",
+    "question": "How do you implement streaming responses with Server-Sent Events?",
+    "answer": "To implement streaming responses with Server-Sent Events (SSE), set the Content-Type header to 'text/event-stream', keep the connection open, and send data in the format 'data: {payload}\\n\\n'. On the client side, create an EventSource object pointing to your endpoint. SSE automatically handles reconnection and is simpler than WebSockets for one-way server-to-client streaming.",
+    "category": "Web Development",
+    "tags": ["streaming", "sse", "real-time", "http"]
+  },
+  {
+    "id": "f1",
+    "front": "Vector Search",
+    "back": "A technique that finds similar items by measuring distances between numerical vector representations (embeddings) in a high-dimensional space.",
+    "category": "Technology",
+    "tags": ["search", "vectors", "similarity"]
+  },
+  {
+    "id": "f2",
+    "front": "Embedding",
+    "back": "A dense numerical vector representation of data in a continuous vector space that captures semantic meaning and relationships.",
+    "category": "Machine Learning",
+    "tags": ["vectors", "representation", "nlp"]
+  },
+  {
+    "id": "f3",
+    "front": "Server-Sent Events (SSE)",
+    "back": "A web API for one-way server-to-client streaming over HTTP, using the text/event-stream content type.",
+    "category": "Web Development",
+    "tags": ["streaming", "real-time", "http"]
+  }
+]
